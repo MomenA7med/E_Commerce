@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "790014146195",
+    "firebase_url": "https://ecommerce-26b36.firebaseio.com",
+    "project_id": "ecommerce-26b36",
+    "storage_bucket": "ecommerce-26b36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790014146195:android:90c45f486238f983",
+        "android_client_info": {
+          "package_name": "com.example.momen.e_commerceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790014146195-bksg5n6qj2qstci60fj2c451ku26medn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.momen.e_commerceapp",
+            "certificate_hash": "4601b6ea144e1c19a353aab4f659c11f582dafa7"
+          }
+        },
+        {
+          "client_id": "790014146195-acjdp6o8vunlb5unolbfuviq27shlfqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ09mhKpfc3duNqOkpGOvpwL1keln-tmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790014146195-acjdp6o8vunlb5unolbfuviq27shlfqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
