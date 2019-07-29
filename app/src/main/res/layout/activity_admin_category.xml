@@ -149,6 +149,32 @@
 
     </LinearLayout>
 
-
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="check new orders"
+            android:textAllCaps="false"
+            android:layout_margin="10dp"
+            android:onClick="chkNewProducts"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_margin="10dp"
+            android:text="Log out"
+            android:onClick="logOut"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
 </RelativeLayout>

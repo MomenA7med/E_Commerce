@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import io.paperdb.Paper;
+
 public class AdminCategoryActivity extends AppCompatActivity {
 
     private ImageView tShirts, sportsTShirts, femaleDresses, sweathers;
@@ -166,5 +168,18 @@ public class AdminCategoryActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void chkNewProducts(View view) {
+        Intent intent = new Intent(AdminCategoryActivity.this,AdminNewOrderActivity.class);
+        startActivity(intent);
+    }
+
+    public void logOut(View view) {
+        Paper.book().destroy();
+        Intent intent = new Intent(AdminCategoryActivity.this,MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+        finish();
     }
 }
